@@ -1,7 +1,7 @@
 function check_equations(m, n, k) 
 %==========================================================================
 % MATLAB program to check the equations and formulas in
-% the paper "IN THE 2-NORM, PLS FITS CLOSER THAN OR SAME AS PCR"
+% the paper "IN THE 2-NORM, PLS FITS CLOSER THAN OR THE SAME AS PCR"
 % for specific values of m, n, and k:
 % Input Parameters: m, n, k where
 %        for min || A x - b ||
@@ -31,7 +31,7 @@ function check_equations(m, n, k)
 %     correctness of the paper's formulas and equations.
 %
 % Created by Leslie Foster with the assistance of Google's Gemini
-% cc, Leslie Foster, 7-9-2026, leslie.foster@sjsu.edu
+% cc, Leslie Foster, 7-20-2026, leslie.foster@sjsu.edu
 
 % Default arguments
     arguments
