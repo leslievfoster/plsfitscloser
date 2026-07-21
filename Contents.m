@@ -1,10 +1,10 @@
 %% Contents.m
 %   This folder comtains MATLAB code to accompany the paper:
 %
-%   "In the 2-Norm, PLS Fits Closer Than or Same As PCR"
-%       by Leslie Foster
+%   "In the 2-Norm, PLS Fits Closer Than or the Same As PCR"
+%       by Leslie Foster, San Jose State University
 %
-%   The code require the following packages:
+%   The code require the following package and toolbox:
 %
 %    (1) IRTools by James Nagy, Silvia Gazzola, and Per Christian Hansen
 %             https://github.com/jnagy1/IRtools, for generate_fig1_fig2
