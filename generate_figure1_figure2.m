@@ -22,7 +22,7 @@ NoiseLevel = 0.01;
 
 n_pic = 100;   % The picture is n_pic by n_pic pixels
 options.CommitCrime = 'on'; % Corollary 1.2 assumes A*x0 = b
-%options.CommitCrime = 'off'; % makes little difference in the figures
+%options.CommitCrime = 'off'; % little difference for k values in figures
 [A, b, x0, ProbInfo] = PRblurspeckle(n_pic, options);
 n = n_pic * n_pic;  % A is an n by n matrix stored in psf format
 [bn, NoiseInformation]= PRnoise(b,'gauss',NoiseLevel);
