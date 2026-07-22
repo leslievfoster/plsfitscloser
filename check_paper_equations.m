@@ -1,4 +1,4 @@
-function check_equations(m, n, k) 
+function check_paper_equations(m, n, k) 
 %==========================================================================
 % MATLAB program to check the equations and formulas in
 % the paper "IN THE 2-NORM, PLS FITS CLOSER THAN OR THE SAME AS PCR"
@@ -37,12 +37,12 @@ function check_equations(m, n, k)
     arguments
         m (1,1) {mustBeInteger} = 5
         n (1,1) {mustBeInteger} = 4
-        k (1,1) {mustBeInteger} = 2
+        k (1,1) {mustBeInteger} = 2 
     end
 
 fprintf('====================================================\n');
-fprintf('       SYMBOLIC EQUATION CHECKS FOR           \n');
-fprintf('''IN THE 2-NORM, PLS FITS CLOSER THAN OR SAME AS PCR''\n')
+fprintf('           SYMBOLIC EQUATION CHECKS FOR           \n');
+fprintf('''IN THE 2-NORM, PLS FITS CLOSER THAN OR THE SAME AS PCR''\n')
 fprintf('====================================================\n\n');
 
 
